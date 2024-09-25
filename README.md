@@ -17,7 +17,7 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:20000%;
+            width:200%;
             height:37%;
             margin-left: -390px;
         }
@@ -26,7 +26,7 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:20000%;
+            width:200%;
             height:37%; 
             margin-left: -390px;
         }
