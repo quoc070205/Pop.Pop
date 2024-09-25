@@ -17,18 +17,18 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:1000px;
-            height:1000px;
-            margin-left: -390px;
+            width:auto;
+            height:auto;
+            margin-left: auto;
         }
         #image1{
             margin-top: -100px;
             display:block;
             position: absolute;
             cursor: pointer;
-            width:1000px;
-            height:1000px; 
-            margin-left: -390px;
+            width:auto;
+            height:auto; 
+            margin-left: auto;
         }
         .image-container {
             position: relative;
