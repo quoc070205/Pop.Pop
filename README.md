@@ -17,25 +17,25 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:1000px;
-            height:1000px;
-            margin-left: auto;
+           
+ margin-left: auto;
         }
         #image1{
             margin-top: auto;
             display:block;
             position: absolute;
             cursor: pointer;
-            width:1000px;
-            height:1000px; 
-            margin-left: auto;
+           
+margin-left: auto;
         }
-        .image-container {
+.image-container {
             position: relative;
+           width:1000px;
+            height:1000px;  
             display: inline-block;
        
         }
-        .text{ 
+ .text{ 
             position: absolute;
             top: 900%;
             left: 50%;
