@@ -27,13 +27,13 @@
             position: absolute;
             cursor: pointer;
             width:800px;
-            height:370%; 
+            height:1000%; 
             margin-left: -390px;
         }
         .image-container {
             position: relative;
             display: inline-block;
-            font-size: 100%;
+            font-size: 100px;
         }
         .text{ 
             position: absolute;
