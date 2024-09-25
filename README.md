@@ -17,8 +17,8 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:2000%;
-            height:3717%;
+            width:20000%;
+            height:37107%;
             margin-left: -390px;
         }
         #image1{
@@ -26,8 +26,8 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:2000%;
-            height:3717%; 
+            width:20000%;
+            height:37107%; 
             margin-left: -390px;
         }
         .image-container {
