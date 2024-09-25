@@ -18,7 +18,7 @@
             position: absolute;
             cursor: pointer;
             width:800px;
-            height:370%;
+            height:500%;
             margin-left: -390px;
         }
         #image1{
@@ -27,7 +27,7 @@
             position: absolute;
             cursor: pointer;
             width:800px;
-            height:1000%; 
+            height:500%; 
             margin-left: -390px;
         }
         .image-container {
@@ -58,7 +58,7 @@
     <img id="image1"   src="https://scontent.fsgn8-3.fna.fbcdn.net/v/t1.15752-9/459568071_1745087909365765_5148609453394280955_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGhrS0FPWDWsKMvfclSkNFqLeNbf3RK6dQt41t_dErp1BWGD1fdfNpqQiITY2cJt-Gqawq2z-B0yiWNpXMxzC4A&_nc_ohc=Cg2UEQjAFRMQ7kNvgG-kR9W&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=AMX_i2h33iKdg3WwrCtbg0s&oh=03_Q7cD1QFuTv2DHCi79bNf1BuAVamWrSQTk7ZpkJ2bgGoOpO9IFQ&oe=671A4BDF" >
     <audio id="clickSound" src="Untitled video - Made with Clipchamp (1).mp4" preload="auto"></audio>
     <div class="text"><span id="dem">0</span></div>
-    <button onclick="increment()">click</button>
+    <button onclick="increment()"></button>
     </div>
 <script>  
     const image=document.getElementById("image1","Image");
