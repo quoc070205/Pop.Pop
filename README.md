@@ -30,8 +30,8 @@ margin-left: auto;
         }
 .image-container {
             position: relative;
-           width:700px;
-            height:700px;  
+           width:500px;
+            height:500px;  
             display: inline-block;
        
         }
