@@ -17,7 +17,7 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:800px;
+            width:500px;
             height:500%;
             margin-left: -390px;
         }
@@ -26,14 +26,14 @@
             display:block;
             position: absolute;
             cursor: pointer;
-            width:800px;
+            width:500px;
             height:500%; 
             margin-left: -390px;
         }
         .image-container {
             position: relative;
             display: inline-block;
-            font-size: 100px;
+            font-size: 1px;
         }
         .text{ 
             position: absolute;
