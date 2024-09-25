@@ -33,7 +33,7 @@
         .image-container {
             position: relative;
             display: inline-block;
-            font-size: 1px;
+       
         }
         .text{ 
             position: absolute;
