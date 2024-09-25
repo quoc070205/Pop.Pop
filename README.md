@@ -13,7 +13,7 @@
             margin-top: 50px;
         }
         #Image {
-            margin-top: -100px;
+            margin-top: auto;
             display:block;
             position: absolute;
             cursor: pointer;
@@ -22,7 +22,7 @@
             margin-left: auto;
         }
         #image1{
-            margin-top: -100px;
+            margin-top: auto;
             display:block;
             position: absolute;
             cursor: pointer;
