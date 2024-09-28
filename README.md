@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,40 +12,42 @@
             margin-top: 50px;
         }
         #Image {
-            margin-top: auto;
+            margin-top: -100px;
             display:block;
             position: absolute;
             cursor: pointer;
-            margin-left: auto;
+            width:2000%;
+            height:3717%;
+            margin-left: -390px;
         }
         #image1{
-            margin-top: auto;
+            margin-top: -100px;
             display:block;
             position: absolute;
             cursor: pointer;
-           margin-left: auto;
+            width:2000%;
+            height:3717%; 
+            margin-left: -390px;
         }
         .image-container {
             position: relative;
-           width:500px;
-            height:500px;  
             display: inline-block;
-             }
- .text{ 
+            font-size: 100%;
+        }
+        .text{ 
             position: absolute;
-             top: 30%;
-            right: 45%; 
-/*             left: 50%; */
-/*             transform: translate(-50%, -50%); */
+            top: 750%;
+            /* transform: translate(-50%, -50%); */
             color: pink;
             font-size: 100px;
             font-weight: bold;
-            text-align: center;
+            right: -30%;
+            /* text-align: center; */
         }
         img:active {
             transform: scale(0.95);
         }
-          .active {
+        .active {
             animation: jump 0.3s ease;
         }
     @keyframes jump {
@@ -68,7 +71,7 @@
     <img id="image1"   src="https://scontent.fsgn8-3.fna.fbcdn.net/v/t1.15752-9/459568071_1745087909365765_5148609453394280955_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGhrS0FPWDWsKMvfclSkNFqLeNbf3RK6dQt41t_dErp1BWGD1fdfNpqQiITY2cJt-Gqawq2z-B0yiWNpXMxzC4A&_nc_ohc=Cg2UEQjAFRMQ7kNvgG-kR9W&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=AMX_i2h33iKdg3WwrCtbg0s&oh=03_Q7cD1QFuTv2DHCi79bNf1BuAVamWrSQTk7ZpkJ2bgGoOpO9IFQ&oe=671A4BDF" >
     <audio id="clickSound" src="Untitled video - Made with Clipchamp (1).mp4" preload="auto"></audio>
     <div class="text"><span id="dem">0</span></div>
-    <button onclick="increment()"></button>
+    <button onclick="increment()">click</button>
     </div>
 <script>  
     const jumpText = document.querySelector('.text');
@@ -76,8 +79,8 @@
     const clickSound = document.getElementById("clickSound");   
     image.addEventListener("mousedown", function() {
             clickSound.currentTime = 0;
-            clickSound.play(); 
-           jumpText.classList.add("active");
+            clickSound.play();    
+            jumpText.classList.add("active");
             setTimeout(function() {
             jumpText.classList.remove("active"); }, 300);
         });
@@ -103,7 +106,7 @@
         } else {
             img.style.display = "none";
         }});
-        document.getElementById("image1").addEventListener("mousedown", function() {
+       document.getElementById("image1").addEventListener("mousedown", function() {
             var img = document.getElementById("image1");
         if (img.style.display === "block") { 
             img.style.display = "none";
