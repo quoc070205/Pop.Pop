@@ -32,8 +32,8 @@
              }
  .text{ 
             position: absolute;
-            top: 200%;
-            right: -200%;
+/*             top: 200%;
+            right: -200%; */
 /*             left: 50%; */
 /*             transform: translate(-50%, -50%); */
             color: pink;
