@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,24 +15,21 @@
             display:block;
             position: absolute;
             cursor: pointer;
-           
- margin-left: auto;
+            margin-left: auto;
         }
         #image1{
             margin-top: auto;
             display:block;
             position: absolute;
             cursor: pointer;
-           
-margin-left: auto;
+           margin-left: auto;
         }
-.image-container {
+        .image-container {
             position: relative;
            width:500px;
             height:500px;  
             display: inline-block;
-       
-        }
+             }
  .text{ 
             position: absolute;
             top: 50%;
