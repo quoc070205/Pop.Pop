@@ -35,14 +35,28 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: red;
+            color: pink;
             font-size: 100px;
             font-weight: bold;
             text-align: center;
-        }-s
+        }
         img:active {
             transform: scale(0.95);
         }
+          .active {
+            animation: jump 0.3s ease;
+        }
+    @keyframes jump {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-30px) rotate(20deg); /* Nhảy và xoay một chút */
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
     </style>
 </head>
 <body>
@@ -56,11 +70,15 @@
     <button onclick="increment()"></button>
     </div>
 <script>  
+    const jumpText = document.querySelector('.text');
     const image=document.getElementById("image1","Image");
     const clickSound = document.getElementById("clickSound");   
     image.addEventListener("mousedown", function() {
             clickSound.currentTime = 0;
             clickSound.play(); 
+           jumpText.classList.add("active");
+            setTimeout(function() {
+            jumpText.classList.remove("active"); }, 300);
         });
     const clickcountDisplay=document.getElementById("dem");
     let count= 0;
@@ -77,16 +95,14 @@
         } else {
             img.style.display = "none";
         }});
-        
-document.getElementById("image1").addEventListener("mouseup", function() {
+        document.getElementById("image1").addEventListener("mouseup", function() {
             var img = document.getElementById("image1");
         if (img.style.display === "none") { 
             img.style.display = "block";
         } else {
             img.style.display = "none";
         }});
-       
- document.getElementById("image1").addEventListener("mousedown", function() {
+        document.getElementById("image1").addEventListener("mousedown", function() {
             var img = document.getElementById("image1");
         if (img.style.display === "block") { 
             img.style.display = "none";
