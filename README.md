@@ -33,12 +33,13 @@
  .text{ 
             position: absolute;
             top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            right: -30%;
+/*             left: 50%; */
+/*             transform: translate(-50%, -50%); */
             color: pink;
             font-size: 100px;
             font-weight: bold;
-            text-align: center;
+/*             text-align: center; */
         }
         img:active {
             transform: scale(0.95);
