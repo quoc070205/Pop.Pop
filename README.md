@@ -5,7 +5,9 @@
     <title>Phạm Ngọc Anh Quốc </title>
     <style>
         body {
-            background-image:url("https://toanthaydinh.com/wp-content/uploads/2020/04/anh-bia-anime-cap-doi-8.png");  
+/*             background-image:url("https://toanthaydinh.com/wp-content/uploads/2020/04/anh-bia-anime-cap-doi-8.png"); */
+            background-image:url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t1.15752-9/459555829_334106726396044_5332927443886719651_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE-2ov1FupLTGmrRowl2Z1o5jiwAQSM6HXmOLABBIzodeZff15pHO1mKWETjmfvCehChPXE_jDPRX-t9ltX-Gyn&_nc_ohc=yXcc0K27vGYQ7kNvgGubCV9&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=AfHLsCVrLPA7F7atwCg1ra3&oh=03_Q7cD1QEFxU7wCcSLY1HavBUmNg9ohKP1Zqlg4oVFzYhiwG8iog&oe=671A3094");  
+            background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t1.15752-9/459568071_1745087909365765_5148609453394280955_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGhrS0FPWDWsKMvfclSkNFqLeNbf3RK6dQt41t_dErp1BWGD1fdfNpqQiITY2cJt-Gqawq2z-B0yiWNpXMxzC4A&_nc_ohc=Cg2UEQjAFRMQ7kNvgG-kR9W&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=AMX_i2h33iKdg3WwrCtbg0s&oh=03_Q7cD1QFuTv2DHCi79bNf1BuAVamWrSQTk7ZpkJ2bgGoOpO9IFQ&oe=671A4BDF");
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
